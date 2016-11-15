@@ -1,0 +1,138 @@
+
+/* BANNIERE */
+
+#banner {
+	background-image: image-url("background.jpg");
+	color: white;
+	padding: 166px 0;
+	background-size: cover;
+	height: 700px;
+	h1 {
+		font-size: 100px;
+		color: white;
+		letter-spacing: 2px;
+		text-shadow: 3px 3px 3px black;
+	}
+	p {
+		font-size: 25px;
+		font-weight: 100;
+		text-shadow: 2px 2px 2px black;
+		margin: 0 10px 16px;
+	}
+	.row {
+		margin-left: 77px;
+	}
+}
+
+
+.btn {
+	background-color: $gray-darker;
+	border-color: $gray-darker;
+	border-radius: 7px;
+    margin-left: 10px;
+    opacity: 0.9;
+   	font-weight: 100;
+
+    &:hover {
+    	background-color: $gray-darker;
+    	border-color: $gray-darker;
+    	opacity: 1;
+    }
+}
+
+
+
+/* CONCEPT */
+
+#concept {
+	background-color: $gray-darker;
+	color: white;
+	h2 {
+		margin-bottom: 30px;
+	}
+	p{
+		margin: 0px 10px 11px 10px;
+	}
+}
+
+
+/* SCHEMA */
+
+#schema {
+	
+	h2 {
+		margin-bottom: 50px;
+	}
+	a {
+		text-decoration: none;
+		color: black;
+		font-weight: bold;
+	}
+}
+
+.card {
+	margin-bottom: 50px;
+}
+
+
+
+/* LISTE DES DOMAINES */
+
+#liste {
+	background-color: $gray-darker;
+	color: white;
+	list-style: none;
+	h2 {
+		margin-bottom: 30px;
+	}
+	ul {
+		list-style-type: none;
+	}
+	p {
+		position: relative;
+		top: 120px;
+		font-size: 10px;
+		margin: 0px 10px 11px 10px;
+	}
+
+} 
+
+
+
+/* SUBMIT */ 
+
+#formulaire {
+	background-image: image-url("background2.jpg");
+	background-size: cover;
+	color: white;
+	padding: 166px 0;
+	height: 640px;
+	text-shadow: 2px 2px 2px black;
+	.features {
+		padding-bottom: 10px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
